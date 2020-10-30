@@ -10,12 +10,15 @@
 # C#:
     1- Download the movie from Torrent file which python downloaded it
     2- send data to python program using console , and hide the console(hide incomplete)
+    3- ServerTest file is a source code for torrent download and send data to python (local)
+
     
     
 # Incomplete: 
     1- progressbar in gui
     2- subtitles
     3- Design
+    4- x
     
 # notice:
     If there is anything incomprehensible, send me and I will help you
