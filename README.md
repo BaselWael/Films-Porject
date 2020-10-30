@@ -20,7 +20,7 @@
     1- progressbar in gui
     2- subtitles
     3- Design
-    4- x
+    4- Sometimes bugs occur while sending data from C# Console to python program
     
 # notice:
     If there is anything incomprehensible, send me and I will help you
