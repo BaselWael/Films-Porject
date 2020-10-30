@@ -1,6 +1,8 @@
 # Films-Porjects
     This project incomplete guys, that was training for me and it's working
+    using C# , python pyqt5
 # Language: C# + Python , YTS.mx api
+
 # python:
     1- I have created a library to download torrent file from yts site
     2- i did program by C# to download the movie from torrent and send data like kb/sec and size to python program (local)
