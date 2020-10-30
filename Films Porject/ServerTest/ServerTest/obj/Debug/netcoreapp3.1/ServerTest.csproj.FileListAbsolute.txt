@@ -1,0 +1,15 @@
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ServerTest.exe
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ServerTest.deps.json
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ServerTest.runtimeconfig.json
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ServerTest.runtimeconfig.dev.json
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ServerTest.dll
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ServerTest.pdb
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\obj\Debug\netcoreapp3.1\ServerTest.csprojAssemblyReference.cache
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\obj\Debug\netcoreapp3.1\ServerTest.AssemblyInfoInputs.cache
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\obj\Debug\netcoreapp3.1\ServerTest.AssemblyInfo.cs
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\obj\Debug\netcoreapp3.1\ServerTest.dll
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\obj\Debug\netcoreapp3.1\ServerTest.pdb
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\Mono.Nat.dll
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\MonoTorrent.dll
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\bin\Debug\netcoreapp3.1\ReusableTasks.dll
+C:\Users\Basola\Desktop\C#\ServerTest\ServerTest\obj\Debug\netcoreapp3.1\ServerTest.csproj.CopyComplete

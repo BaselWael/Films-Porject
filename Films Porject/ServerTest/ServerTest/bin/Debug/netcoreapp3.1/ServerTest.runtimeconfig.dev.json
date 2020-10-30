@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Basola\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Basola\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ServerTest/1.0.0": {
+        "dependencies": {
+          "MonoTorrent": "1.0.19"
+        },
+        "runtime": {
+          "ServerTest.dll": {}
+        }
+      },
+      "Mono.Nat/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Nat.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "MonoTorrent/1.0.19": {
+        "dependencies": {
+          "Mono.Nat": "2.0.0",
+          "ReusableTasks": "1.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoTorrent.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.19.0"
+          }
+        }
+      },
+      "ReusableTasks/1.0.6": {
+        "runtime": {
+          "lib/netstandard2.1/ReusableTasks.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ServerTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mono.Nat/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFSbm6dNSs8N50g80NedHDReBv+UCwbZc+ZQEOnKJ3+uwTU533Qa3KO+dZOS/MnzPfstRLYEOelQQwftrehsig==",
+      "path": "mono.nat/2.0.0",
+      "hashPath": "mono.nat.2.0.0.nupkg.sha512"
+    },
+    "MonoTorrent/1.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OGQ8FTXBggzIx3DnIyp+UERdFTbhP/Th52HbYd4NZC44V0K1yTpKfpHYbNC6CRr9sG6uaml5QEpZP8yxlavTjg==",
+      "path": "monotorrent/1.0.19",
+      "hashPath": "monotorrent.1.0.19.nupkg.sha512"
+    },
+    "ReusableTasks/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OsLJ2+Ei48B+pPxbK3WJXVs+FaP9wY0rDSO+lBYpcLPE2sh8iavMi9YGbqr49m2MQ+u7BMYsdw10yehKx7zhaw==",
+      "path": "reusabletasks/1.0.6",
+      "hashPath": "reusabletasks.1.0.6.nupkg.sha512"
+    }
+  }
+}

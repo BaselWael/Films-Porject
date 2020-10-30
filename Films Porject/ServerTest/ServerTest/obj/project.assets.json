@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Mono.Nat/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Nat.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Nat.dll": {}
+        }
+      },
+      "MonoTorrent/1.0.19": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Nat": "2.0.0",
+          "ReusableTasks": "1.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/MonoTorrent.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoTorrent.dll": {}
+        }
+      },
+      "ReusableTasks/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/ReusableTasks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/ReusableTasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mono.Nat/2.0.0": {
+      "sha512": "OFSbm6dNSs8N50g80NedHDReBv+UCwbZc+ZQEOnKJ3+uwTU533Qa3KO+dZOS/MnzPfstRLYEOelQQwftrehsig==",
+      "type": "package",
+      "path": "mono.nat/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/netstandard2.0/Mono.Nat.dll",
+        "lib/netstandard2.0/Mono.Nat.xml",
+        "mono.nat.2.0.0.nupkg.sha512",
+        "mono.nat.nuspec"
+      ]
+    },
+    "MonoTorrent/1.0.19": {
+      "sha512": "OGQ8FTXBggzIx3DnIyp+UERdFTbhP/Th52HbYd4NZC44V0K1yTpKfpHYbNC6CRr9sG6uaml5QEpZP8yxlavTjg==",
+      "type": "package",
+      "path": "monotorrent/1.0.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/MonoTorrent.dll",
+        "lib/netstandard2.0/MonoTorrent.xml",
+        "monotorrent.1.0.19.nupkg.sha512",
+        "monotorrent.nuspec"
+      ]
+    },
+    "ReusableTasks/1.0.6": {
+      "sha512": "OsLJ2+Ei48B+pPxbK3WJXVs+FaP9wY0rDSO+lBYpcLPE2sh8iavMi9YGbqr49m2MQ+u7BMYsdw10yehKx7zhaw==",
+      "type": "package",
+      "path": "reusabletasks/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/netstandard2.0/ReusableTasks.dll",
+        "lib/netstandard2.0/ReusableTasks.xml",
+        "lib/netstandard2.1/ReusableTasks.dll",
+        "lib/netstandard2.1/ReusableTasks.xml",
+        "reusabletasks.1.0.6.nupkg.sha512",
+        "reusabletasks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MonoTorrent >= 1.0.19"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Basola\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Basola\\Desktop\\C#\\ServerTest\\ServerTest\\ServerTest.csproj",
+      "projectName": "ServerTest",
+      "projectPath": "C:\\Users\\Basola\\Desktop\\C#\\ServerTest\\ServerTest\\ServerTest.csproj",
+      "packagesPath": "C:\\Users\\Basola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Basola\\Desktop\\C#\\ServerTest\\ServerTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Basola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "MonoTorrent": {
+            "target": "Package",
+            "version": "[1.0.19, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
