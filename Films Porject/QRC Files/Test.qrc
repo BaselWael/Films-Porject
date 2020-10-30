@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>../../../vector-abstract-background-design-wavy.jpg</file>
+    <file>images.jpg</file>
+  </qresource>
+</RCC>
