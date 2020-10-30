@@ -33,6 +33,8 @@ class MainApp(QMainWindow,FORM_CLASS):
         self.pushButton_download.clicked.connect(self.torreentUrlDownload)
         self.pushButton_Checkquality.clicked.connect(self.QualityCheck)
 
+
+    # Check movie name and quality 
     def CheckMovieButton(self):
         movie_name = self.lineEdit.text()
         data = movie_name
@@ -48,6 +50,8 @@ class MainApp(QMainWindow,FORM_CLASS):
 
 
         QApplication.processEvents()
+
+        # to write quality in text and write it in combobox
     def QualityCheck(self):
         Film_name_text = open('Filmname.txt', "w+")
         item = str(self.comboBox.currentText())
@@ -70,6 +74,9 @@ class MainApp(QMainWindow,FORM_CLASS):
         except Exception:
             print("Error")
 
+
+
+# receive data from C# console (kb/sec) 
     def torreentUrlDownload(self):
         '''item = str(self.comboBox.currentText())
         Film_name_text = open('Filmname.txt',"w+")
@@ -104,6 +111,8 @@ class MainApp(QMainWindow,FORM_CLASS):
         QApplication.processEvents()
 
 
+
+# save location send to C# to save location
     def location_button(self):
         self.save = QFileDialog.getExistingDirectory(self, "Select Download Directory")
         self.lineEdit_2.setText(self.save)
@@ -117,6 +126,7 @@ class MainApp(QMainWindow,FORM_CLASS):
         s.sendall(location_encoding)  # first sending location
         QApplication.processEvents()
 
+
     def download_speed(self): # to put download speed
         try:
             data = ''
@@ -125,6 +135,7 @@ class MainApp(QMainWindow,FORM_CLASS):
         except Exception as e:
             print(f"error download speed :  {e}")
         QApplication.processEvents()
+
 
     def FileSize(self): # to get file size
         try:
@@ -141,7 +152,7 @@ class MainApp(QMainWindow,FORM_CLASS):
         except Exception as e:
             return f"error filesize : {e}"
 
-    def Calculate_progs_DS_Rem(self): # to calculate everything
+    def Calculate_progs_DS_Rem(self): # to calculate download speed
         while True:
             try:
                 #time.sleep(1)
@@ -151,7 +162,8 @@ class MainApp(QMainWindow,FORM_CLASS):
             except Exception as e:
               print(f"error {e}")
             QApplication.processEvents()
-    def progress_bar(self):
+    
+    def progress_bar(self): # incomplete
         try:
             self.progress = self.respone()
             self.progressBar.setValue(int(float(self.progress)))

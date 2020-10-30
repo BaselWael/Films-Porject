@@ -11,11 +11,12 @@ class torrent:
         return "https://yts.mx/api/v2/list_movies.json?"
 
 
-    def item(self):
+    def item(self): # return film name
         Film_name_text = open('Filmname.txt', "r")
         item = Film_name_text.read()
         return item
-    def GetTorrentUrl(self,quality,type,size):
+    
+    def GetTorrentUrl(self,quality,type,size):# return url
         Query_Term = query_term(film_name=self.item()).Check()
         limit = str(Limit(limit=50).Check())
         url = self.Urlbase()
@@ -39,7 +40,7 @@ class torrent:
         except Exception:
             return 'No Url found'
 
-    def GetTorrentSize(self, quality, type, size):
+    def GetTorrentSize(self, quality, type, size): #return size
             Query_Term = query_term(film_name=self.item()).Check()
             limit = str(Limit(limit=50).Check())
             url = self.Urlbase()
@@ -63,7 +64,7 @@ class torrent:
             except Exception:
                 return "No size found"
 
-    def GetQuality(self):
+    def GetQuality(self): # return list of quality
         Query_Term = query_term(film_name=self.item()).Check()
         limit = str(Limit(limit=50).Check())
         url = self.Urlbase()
@@ -87,7 +88,7 @@ class torrent:
         except Exception:
             return ["No quality found"]
 
-    def GetType(self):
+    def GetType(self): # return type of movie(bluray , hdcam)
         Query_Term = query_term(film_name=self.item()).Check()
         limit = str(Limit(limit=50).Check())
         url = self.Urlbase()
@@ -134,7 +135,7 @@ class torrent:
         except Exception:
             return "No quality found"
 
-    def GetFilmNames(self):
+    def GetFilmNames(self): # return film name
         Query_Term = query_term(film_name=self.film_name).Check()
         limit = str(Limit(limit=self.limit).Check())
         url = self.Urlbase()

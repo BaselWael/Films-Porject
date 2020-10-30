@@ -1,3 +1,4 @@
+# get film name
 class query_term:
     def __init__(self,film_name = None):
         self.film_name = film_name
